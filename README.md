@@ -4,7 +4,7 @@ In June 2021, the California Department of Technology (CDT) launched the Digital
 
 # Application Architecture
 
-California's implementation of the application is a three-tier, logically and physically separated architecture: 
+Scott Miller's 'implementation of the application is a three-tier, logically and physically separated architecture: 
 1.	A web application using the React JavaScript Library, 
 2.	A middle tier written in Microsoft .NET Core with a Node.js API, and 
 3.	A backend data tier using Snowflake. 
