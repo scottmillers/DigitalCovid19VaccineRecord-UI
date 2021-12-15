@@ -94,7 +94,7 @@ stages:
               displayName: 'Azure App Service Deployment'
               inputs:
                 ConnectionType: 'AzureRM'
-                azureSubscription: 'DigitalCovid19VaccineServiceConnection'
+                azureSubscription: 'CovidDigitalVaccineRecord'
                 appType: 'webApp'
                 WebAppName: 'app-txverify-ui-dev'
                 packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
