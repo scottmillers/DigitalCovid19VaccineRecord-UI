@@ -173,7 +173,7 @@ stages:
               displayName: 'Azure App Service Deployment'
               inputs:
                 ConnectionType: 'AzureRM'
-                azureSubscription: 'DigitalCovid19VaccineServiceConnection'
+                azureSubscription: 'CovidDigitalVaccineRecord'
                 appType: 'webApp'
                 WebAppName: 'app-waverify-ui-qa'
                 packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
@@ -252,7 +252,7 @@ stages:
               displayName: 'Azure App Service Deployment'
               inputs:
                 ConnectionType: 'AzureRM'
-                azureSubscription: 'DigitalCovid19VaccineServiceConnection'
+                azureSubscription: 'CovidDigitalVaccineRecord'
                 appType: 'webApp'
                 WebAppName: 'app-waverify-ui-prod'
                 packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
